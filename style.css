@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(48, 48, 48);
+
+}
+
+
+.container > * {
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    border-color: 1px dashed black;
+}
+
+.one {
+
+}
+
+.two {
+
+}
+
+.three {
+
+}
+
+.bomb {
+
+}
+
+.empty {
+
+}
+
+.full {
+
+}
