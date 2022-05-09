@@ -1,41 +1,60 @@
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     height: 400px;
     width: 400px;
     margin: auto;
-    background-color: rgb(48, 48, 48);
+    border: 15px #cacaca;
+    border-style: ridge;
 
 }
 
 
 .container > * {
-    height: 50px;
     width: 50px;
-    background-color: grey;
-    border-color: 1px dashed black;
+    height: 50px;
+    background-color: #cacaca;
+    border: 4px black;
+    border-style: none dotted dotted none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .one {
+    background-image: url(./img/1.png);
+    background-position: center;
 
 }
 
 .two {
+    background-image: url(./img/2.png);
+    background-position: center;
 
 }
 
 .three {
+    background-image: url(./img/3.png);
+    background-position: center;
 
 }
 
 .bomb {
+    background-image: url(./img/bomb.png);
+    background-position: center;
 
 }
 
 .empty {
+    
 
 }
 
 .full {
-
+    background-color: #cacaca;
+    border: 4px outset #cacaca;
 }
