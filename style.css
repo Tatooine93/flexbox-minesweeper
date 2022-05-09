@@ -61,8 +61,5 @@
 
 .full:hover {
     background-color: #cacaca00;
-    border: 4px outset #cacaca00;
-    border: 4px black;
-    border-style: none dotted dotted none;
-    box-sizing: border-box;
+    border: #cacaca00;
 }
